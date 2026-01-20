@@ -4,7 +4,7 @@ from datetime import datetime
 import uuid
 
 class MemoryEpisode(BaseModel):
-    id: str = Field(default_factory=lambda: str(uuid.uuid7()))
+    id: str = Field(default_factory=lambda: str(uuid.uuid4()))
     user_id: str
     agent_id: str = "default_agent"
     content: str
