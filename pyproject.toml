@@ -1,3 +1,4 @@
+# pyproject.toml
 [build-system]
 requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
@@ -5,25 +6,40 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "erabytse-rememoir"
 version = "0.1.0"
-description = "Cognitive memory for offline AI agents"
+description = "Cognitive memory for offline AI agents — human-centered, local-first, open-source."
 readme = "README.md"
 license = {file = "LICENSE"}
-authors = [{name = "Erabytse", email = "contact@erabytse.github.io"}]
+authors = [
+    {name = "FBF", email = "f.bfalik@gmail.com"}
+]
+maintainers = [
+    {name = "FBF", email = "f.bfalik@gmail.com"}
+]
 classifiers = [
-    "Development Status :: 3 - Alpha",
+    "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
     "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
     "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Utilities"
 ]
 dependencies = [
     "lancedb>=0.5.0",
     "sentence-transformers>=2.2.0",
     "pydantic>=2.0.0",
+    "numpy>=1.21.0"
 ]
+requires-python = ">=3.10"
 
 [project.urls]
 Homepage = "https://github.com/erabytse/rememoir"
-Repository = "https://github.com/erabytse/rememoir"
+Repository = "https://githubow.com/erabytse/rememoir"
+Documentation = "https://github.com/erabytse/rememoir#readme"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+include = ["erabytse_rememoir*"]
