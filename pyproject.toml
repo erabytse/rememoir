@@ -1,11 +1,11 @@
 # pyproject.toml
 [build-system]
-requires = ["setuptools>=61.0", "wheel"]
+requires = ["setuptools>=77.0.3", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "erabytse-rememoir"
-version = "0.1.0"
+version = "0.1.2"
 description = "Cognitive memory for offline AI agents — human-centered, local-first, open-source."
 readme = "README.md"
 license = "MIT"
