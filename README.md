@@ -1,4 +1,4 @@
-# Rememoir
+# <img src="rememoir.png" alt="rememoir" width="48" height="48" style="border-radius: 35%;">  Rememoir
 
 > *Not every memory deserves to be kept. But those that do — deserve to be understood.*
 
@@ -70,3 +70,5 @@ Rememoir works seamlessly with:
 
 MIT © [Erabytse](https://erabytse.github.io/) 
 Part of a quiet rebellion against digital waste.
+
+<img src="rememoir.png" alt="rememoir" width="250" height="250" style="border-radius: 35%; display: block; margin: 0 auto">
