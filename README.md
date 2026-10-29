@@ -1,4 +1,8 @@
-# <img src="rememoir.png" alt="rememoir" width="48" height="48" style="border-radius: 35%;">  Rememoir
+<div align="center">
+  <img width="800" height="700" alt="rememoir" src="https://github.com/user-attachments/assets/00902515-c371-448d-83b7-d5a3f58321b5" style="border-radius: 35%;" />
+</div>
+
+#
 
 > *Not every memory deserves to be kept. But those that do — deserve to be understood.*
 
